@@ -15,6 +15,14 @@ h1 {
   margin-top: 50px;
 }
 
+.secondary-title {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+}
+
 .container {
   max-width: 1240px;
   padding-left: 20px;
@@ -117,26 +125,20 @@ h1 {
   width: 1117px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 149px;
   background-color: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
 }
 
 .section-about-banking-img {
   width: 477px;
+  vertical-align: middle;
 }
 
 .about-bank {
   width: 475px;
   margin: 125px 92px 125px 62px;
 
-}
-
-.secondary-title {
-  font-family: 'Lato', 'Arial', sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 130%;
-  color: #212353;
 }
 
 .about-bank-text {
@@ -146,4 +148,206 @@ h1 {
   font-size: 18px;
   line-height: 160%;
   color: #4B5D68;
+}
+
+.features {
+  margin: 0;
+  padding: 0;
+  max-width: 1137px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features-header {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 584px;
+  margin-bottom: 70px;
+}
+
+.features-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5D68;
+}
+
+.site-handbooks {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-handbooks-items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 531px;
+  background-color:#F0FAF8;
+  border-radius: 50px;
+  margin-bottom: 50px;
+  padding: 30px 20px 30px 0;
+}
+
+.site-handbooks-item-img {
+  width: 232px;
+}
+
+.search-data {
+  width: 220px;
+  margin-left: 29px;
+}
+
+.tertiary-title {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.learn-more {
+  text-decoration: none;
+  width: 127px;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  color: #212353;
+}
+
+.round-the-clock {
+  width: 220px;
+  margin-left: 29px;
+}
+
+.site-handbooks-items-second {
+  margin-left: auto;
+  background-color: #F5F0FC;
+}
+
+.site-handbooks-items-third {
+  background-color: #FDEFF8;
+}
+
+.print-out {
+  width: 220px;
+  margin-left: 29px;
+}
+
+.site-handbooks-items-fourth {
+  margin-left: auto;
+  background-color: #EAF5FB;
+}
+
+.security-code {
+  width: 220px;
+  margin-left: 29px;
+}
+
+.testimonials {
+  background-color:#9C69E2;
+  margin: 0;
+  padding: 0;
+  width: 1137px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+
+.users {
+  display: flex;
+  flex-shrink: 0;
+  margin-bottom: 60px;
+}
+
+.secondary-title-testimonials {
+  color: white;
+  padding: 109px 620px 88px 93px;
+}
+
+.user-feedback {
+  width: 645px;
+  background-color: white;
+  margin-left: 93px;
+  border-radius: 20px;
+  padding: 60px 70px 50px 70px;
+  box-shadow: 0px 20px 0px #8A56DB;
+}
+
+.user-feedback-item {
+  display: flex;
+}
+
+.user-feedback-item-img {
+  border-radius: 50%;
+}
+
+.tertiary-title-testimonials {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.user-feedback-item-link {
+  text-decoration: none;
+}
+
+.user-feedback-item-information {
+  margin-left: 30px;
+}
+
+.user-feedback-second {
+  width: 370px;
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 20px;
+  padding: 60px 70px 50px 70px;
+  box-shadow: 0px 20px 0px #8A56DB;
+}
+
+.section-buttons {
+  display: flex;
+}
+
+.circles {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 55px;
+  margin-left: 93px;
+  margin-bottom: 50px;
+}
+
+.circles-item-button {
+  padding: 5px;
+  width: 5px;
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-bottom: 60px;
+}
+
+.circles-item-button-first {
+  width: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #F063B8;;
+}
+
+.arrows {
+  margin-left: auto;
+  margin-right: 76px;
+}
+
+.arrows-button {
+  background-color: transparent;
 }
