@@ -486,12 +486,26 @@ h1 {
   margin-left: 100px;
 }
 
-.social-media-link {
-  border-radius: 50%;
-  border: 10px solid transparent;
-  background-color: #E9E9EE;
+.tertiary-title-social-media {
+  margin-bottom: 20px;
 }
 
-.social-media-logo {
-  vertical-align: middle;
+.social-media-link {
+  display: flex;
 }
+
+.social-media-link-item {
+  border-radius: 50%;
+  width: 40px;
+  background-color: #E9E9EE;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+
+}
+
+/* .social-media-logo {
+  vertical-align: middle;
+} */
